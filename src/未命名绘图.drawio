@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-11T09:24:14.308Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="UvJ73x0tN60FFWVrgSmH" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-11T09:33:50.523Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="Uc0k2wjX__Yjm5eub0tZ" version="14.7.7" type="github">
   <diagram id="m2fylWRFHes_s0nzntOt" name="第 1 页">
     <mxGraphModel dx="2066" dy="1072" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -111,6 +111,12 @@
         </mxCell>
         <mxCell id="t1wHoJqtYWH4TyQafbp8-30" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;Record&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;函数激活状态记录&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1050" y="100" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t1wHoJqtYWH4TyQafbp8-32" value="某函数请求到达" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t1wHoJqtYWH4TyQafbp8-33" value="检查 Record 中是否存在该函数记录" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="170" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
