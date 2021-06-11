@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-11T09:33:50.523Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="Uc0k2wjX__Yjm5eub0tZ" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-11T09:42:45.137Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="FQNp3CVYls8XU436nCe6" version="14.7.7" type="github">
   <diagram id="m2fylWRFHes_s0nzntOt" name="第 1 页">
-    <mxGraphModel dx="2066" dy="1072" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -106,10 +106,10 @@
         <mxCell id="t1wHoJqtYWH4TyQafbp8-26" value="&lt;font style=&quot;font-size: 17px&quot;&gt;保活机制&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1440" y="10" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="t1wHoJqtYWH4TyQafbp8-29" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; {&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;&lt;span&gt;functionName: &#39;name&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;lastModifed: &#39;2021-6-10&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(61 , 61 , 61) ; font-family: &amp;#34;arial&amp;#34; , sans-serif&quot;&gt;activated&lt;/span&gt;&lt;span&gt;: 12&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }，&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;...&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;}&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;...&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;align=left;" vertex="1" parent="1">
+        <mxCell id="t1wHoJqtYWH4TyQafbp8-29" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; {&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div&gt;&lt;span&gt;functionName: &#39;myFun&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;lastRunTime: &#39;2021-6-10&#39;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(61 , 61 , 61) ; font-family: &amp;#34;arial&amp;#34; , sans-serif&quot;&gt;activated&lt;/span&gt;&lt;span&gt;: 12&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }，&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;...&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;}&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;...&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1050" y="140" width="230" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="t1wHoJqtYWH4TyQafbp8-30" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;Record&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;函数激活状态记录&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="t1wHoJqtYWH4TyQafbp8-30" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;Record&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;函数保活状态记录&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1050" y="100" width="220" height="20" as="geometry" />
         </mxCell>
         <mxCell id="t1wHoJqtYWH4TyQafbp8-32" value="某函数请求到达" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
@@ -117,6 +117,18 @@
         </mxCell>
         <mxCell id="t1wHoJqtYWH4TyQafbp8-33" value="检查 Record 中是否存在该函数记录" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1420" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t1wHoJqtYWH4TyQafbp8-35" value="更新或新增函数记录" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t1wHoJqtYWH4TyQafbp8-37" value="对每一条记录的函数，检查其服务是否被启动，无则启动一次" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="450" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="t1wHoJqtYWH4TyQafbp8-38" value="每隔 30 min 检查一次函数保护状态记录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="390" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t1wHoJqtYWH4TyQafbp8-39" value="根据记录用&lt;br&gt;当前时间 -&amp;nbsp; lastRunTime 是否大于&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="535" width="195" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
