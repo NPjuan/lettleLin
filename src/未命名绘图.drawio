@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-11T09:42:45.137Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="FQNp3CVYls8XU436nCe6" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-11T09:53:07.547Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="MbCrnO5Arujh5DdengBN" version="14.7.7" type="github">
   <diagram id="m2fylWRFHes_s0nzntOt" name="第 1 页">
     <mxGraphModel dx="2066" dy="1015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -122,13 +122,26 @@
           <mxGeometry x="1420" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t1wHoJqtYWH4TyQafbp8-37" value="对每一条记录的函数，检查其服务是否被启动，无则启动一次" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="450" width="200" height="70" as="geometry" />
+          <mxGeometry x="1060" y="450" width="320" height="70" as="geometry" />
         </mxCell>
         <mxCell id="t1wHoJqtYWH4TyQafbp8-38" value="每隔 30 min 检查一次函数保护状态记录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1085" y="390" width="160" height="40" as="geometry" />
+          <mxGeometry x="1140" y="375" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="t1wHoJqtYWH4TyQafbp8-39" value="根据记录用&lt;br&gt;当前时间 -&amp;nbsp; lastRunTime 是否大于&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="535" width="195" height="65" as="geometry" />
+        <mxCell id="t1wHoJqtYWH4TyQafbp8-39" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;根据函数记录当前时间减去&amp;nbsp; lastRunTime 是否大于规定的保活时间（默认为3天，若激活次数多会更长）&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="550" width="320" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="t1wHoJqtYWH4TyQafbp8-41" value="删除不满足保活条件的记录" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="650" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t1wHoJqtYWH4TyQafbp8-42" value="" style="curved=1;endArrow=classic;html=1;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1360" y="760" as="sourcePoint" />
+            <mxPoint x="1360" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1440" y="720" />
+              <mxPoint x="1440" y="440" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
